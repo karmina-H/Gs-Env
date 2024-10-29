@@ -84,7 +84,6 @@ jsonschema-specifications==2023.12.1
 kiui==0.2.13
 kiwisolver==1.4.7
 kornia==0.7.0
-git+https://github.com/luca-medeiros/lang-segment-anything.git@134a48a81ebd691686187ecce2d016fb327a8852
 lazy-loader==0.4
 libigl==2.5.1
 lightning==2.0.0
