@@ -1,4 +1,4 @@
-name: gaussianeditor
+name: gaussianeditor_idm
 channels:
   - pytorch
   - nvidia
