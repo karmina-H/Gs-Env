@@ -51,7 +51,7 @@ flatbuffers==24.3.25
 fonttools==4.54.1
 freetype-py==2.5.1
 frozenlist==1.4.1
-fsspec==2024.9.0
+fsspec==2023.5.0
 ftfy==6.2.3
 fvcore==0.1.5.post20221221
 gdown==5.2.0
