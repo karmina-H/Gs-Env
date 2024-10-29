@@ -45,7 +45,6 @@ git+https://github.com/ashawkey/envlight.git@ef492c03711c87287549a0283ee51199f45
 eval-type-backport==0.2.0
 exceptiongroup==1.2.2
 executing==2.1.0
-fastapi==0.112.4
 ffmpy==0.4.0
 filelock==3.16.1
 flatbuffers==24.3.25
