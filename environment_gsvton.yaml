@@ -104,7 +104,6 @@ dependencies:
       - kiui==0.2.13
       - kiwisolver==1.4.7
       - kornia==0.7.0
-      - lang-sam==0.1.0
       - lazy-loader==0.4
       - libigl==2.5.1
       - lightning==2.4.0
