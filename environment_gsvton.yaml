@@ -1,7 +1,9 @@
 name: gaussianeditor
 channels:
-  - menpohttps://github.com/karmina-H/Gs-Env/blob/main/environment_gsvton.yaml
+  - pytorch
+  - nvidia
   - defaults
+  - conda-forge
 dependencies:
   - _libgcc_mutex=0.1
   - _openmp_mutex=5.1
