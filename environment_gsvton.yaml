@@ -1,6 +1,6 @@
 name: gaussianeditor
 channels:
-  - menpo
+  - menpohttps://github.com/karmina-H/Gs-Env/blob/main/environment_gsvton.yaml
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
@@ -119,7 +119,7 @@ dependencies:
       - chardet==5.2.0
       - charset-normalizer==3.3.2
       - click==8.1.7
-      - clip==0.1.0
+      - git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
       - cloudpickle==3.0.0
       - cmake==3.30.4
       - coloredlogs==15.0.1
@@ -135,7 +135,7 @@ dependencies:
       - easydict==1.13
       - einops==0.8.0
       - embreex==2.17.7.post5
-      - envlight==0.1.0
+      - git+https://github.com/ashawkey/envlight.git@ef492c03711c87287549a0283ee51199f45cbea4
       - eval-type-backport==0.2.0
       - exceptiongroup==1.2.2
       - executing==2.1.0
@@ -204,12 +204,12 @@ dependencies:
       - msgspec==0.18.6
       - multidict==6.1.0
       - narwhals==1.9.0
-      - nerfacc==0.3.3
+      - git+https://github.com/KAIR-BAIR/nerfacc.git@v0.3.3
       - networkx==3.2.1
       - ninja==1.11.1.1
       - nodeenv==1.9.1
       - numba==0.60.0
-      - nvdiffrast==0.3.3
+      - git+https://github.com/NVlabs/nvdiffrast.git@c5caf7bdb8a2448acc491a9faa47753972edd380
       - nvidia-cublas-cu12==12.1.3.1
       - nvidia-cuda-cupti-cu12==12.1.105
       - nvidia-cuda-nvrtc-cu12==12.1.105
@@ -279,7 +279,7 @@ dependencies:
       - scikit-image==0.24.0
       - scikit-learn==1.5.2
       - scipy==1.13.1
-      - segment-anything==1.0
+      - git+https://github.com/luca-medeiros/lang-segment-anything.git@134a48a81ebd691686187ecce2d016fb327a8852
       - semantic-version==2.10.0
       - sentencepiece==0.2.0
       - sentry-sdk==2.15.0
@@ -305,7 +305,7 @@ dependencies:
       - threadpoolctl==3.5.0
       - tifffile==2024.8.30
       - timm==0.6.7
-      - tinycudann==1.7
+      - git+https://github.com/NVlabs/tiny-cuda-nn/@212104156403bd87616c1a4f73a1c5f2c2e172a9#subdirectory=bindings/torch
       - tokenizers==0.20.0
       - tomli==2.0.2
       - tomlkit==0.12.0
@@ -340,4 +340,6 @@ dependencies:
       - yarl==1.13.1
       - yourdfpy==0.0.56
       - zipp==3.20.2
-prefix: /home/metown/anaconda3/envs/gaussianeditor
+      - gaussiansplatting/submodules/diff-gaussian-rasterization
+      - gaussiansplatting/submodules/simple-knn
+
