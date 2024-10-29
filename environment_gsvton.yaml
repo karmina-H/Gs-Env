@@ -5,10 +5,10 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.9
   - pip
-  - pytorch=2.1.0=py3.8_cuda11.8*
-  - torchvision=0.16.0=py38_cu118
+  - pytorch=2.1.0=py3.9_cuda11.8*
+  - torchvision=0.16.0=py39_cu118
   - ffmpeg=4.2.2
   - hdf5=1.12.1
   - cairo=1.16.0
