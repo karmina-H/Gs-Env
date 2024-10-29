@@ -76,7 +76,6 @@ dependencies:
   - nettle=3.7.3
   - numpy=1.26.4
   - numpy-base=1.26.4
-  - opencv=4.10.0
   - openh264=2.1.1
   - openjpeg=2.5.2
   - openssl=3.0.15
